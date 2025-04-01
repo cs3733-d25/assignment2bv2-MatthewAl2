@@ -1,5 +1,6 @@
 import React from 'react';
 import Title from './components/title';
+import Intro from './components/intro';
 import Form from './components/form';
 import Hobby1 from './components/hobby1';
 import Hobby2 from './components/hobby1';
@@ -8,12 +9,12 @@ import List1 from './components/list1';
 
 
 function App() {
-
+    const studentNames = ["Ryan Zhang", "Matthew Alex"];
 
     return(
         <div className="p-10">
-            <h1 className="font-bold text-xl pb-4">Example Page</h1>
             <Title />
+            <Intro names={studentNames}/>
             <Form />
             <Hobby1 />
             <Hobby2 />
