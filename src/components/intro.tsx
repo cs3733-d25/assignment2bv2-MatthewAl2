@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/game.jpg'
 
 interface IntroProps {
     names: string[]; // Expecting an array of strings
@@ -7,7 +8,7 @@ interface IntroProps {
 const Intro: React.FC<IntroProps> = ({ names }) => {
     return (
         <div className="p-10">
-            <img src="../assets/game.jpg" alt="gameee" width="1920"/>
+            <img src={logo} alt="gameee" width="1920"/>
             <h1 className="font-bold text-xl pb-4">
                 {names[0]} and {names[1]}
             </h1>
