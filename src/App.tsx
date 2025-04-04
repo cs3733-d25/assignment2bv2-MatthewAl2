@@ -1,4 +1,3 @@
-import React from 'react';
 import Title from './components/title';
 import Intro from './components/intro';
 import Form from './components/form';
@@ -9,7 +8,7 @@ import Table1 from './components/table1';
 import Table2 from './components/table2';
 import List1 from './components/list1';
 import List2 from './components/list2';
-
+import './list.css'
 
 function App() {
     const studentNames = ["Ryan Zhang", "Matthew Alex"];
@@ -23,12 +22,15 @@ function App() {
             <List1 />
 
             <Table1 />
+            <br/>
             <Form/>
-
-
+            <br/>
+            <hr/>
+            <br/>
             <Hobby2 />
             <List2/>
             <Table2/>
+            <br/>
             <Form2/>
 
         </div>

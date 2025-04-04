@@ -1,4 +1,3 @@
-import React from 'react';
 import logo2 from "../assets/gamer2.jpg";
 
 const Hobby2 = () => {

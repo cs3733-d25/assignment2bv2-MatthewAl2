@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Table2 = () => {
     return (
         <table className="collapse">

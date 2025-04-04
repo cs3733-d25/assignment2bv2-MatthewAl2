@@ -1,0 +1,16 @@
+li {
+    padding: 0.5rem 1.5rem 1rem;
+    border-radius: 1.5rem;
+    background: powderblue;
+    color: blue;
+}
+
+li + li {
+    margin-top: 1rem;
+}
+
+::marker {
+    font-weight: 600;
+    color: blue;
+    font-size: 1.8rem;
+}

@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: azure;
     color: #333;
     margin: 0;
     padding: 0;
@@ -40,6 +40,10 @@ h1 {
 .highlight {
     color: red;
     font-weight: bold;
+}
+
+#lol {
+    color: red;
 }
 
 .collapse {
