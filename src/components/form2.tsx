@@ -57,7 +57,7 @@ const Form2 = () => {
             <br/>
             <label htmlFor="comments">Comments</label>
             <br/>
-            <textarea rows="2" cols="50" id="comments"></textarea>
+                <textarea id="comments" name="comments"></textarea><br/>
             <br/>
             <br/>
             <button type="submit">Submit</button>
